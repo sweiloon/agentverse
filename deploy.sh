@@ -98,9 +98,9 @@ deploy() {
     echo "========================================"
     echo "AgentVerse is now running!"
     echo "========================================"
-    echo "Frontend: http://72.60.199.100:3003"
-    echo "API:      http://72.60.199.100:8001"
-    echo "API Docs: http://72.60.199.100:8001/docs"
+    echo "Frontend: http://localhost:3003 (or your configured domain)"
+    echo "API:      http://localhost:8001 (or your configured domain)"
+    echo "API Docs: http://localhost:8001/docs"
     echo "========================================"
 }
 
