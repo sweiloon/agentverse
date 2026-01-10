@@ -1,0 +1,178 @@
+{
+  "report_id": "b12a2ae5-2115-4c08-afea-336b250ac3b8",
+  "generated_at": "2026-01-10T10:55:02.803501Z",
+  "overall_status": "PASS",
+  "total_tests": 15,
+  "total_passed": 15,
+  "total_failed": 0,
+  "suites": [
+    {
+      "suite_number": 0,
+      "suite_name": "Smoke & Observability",
+      "status": "PASS",
+      "duration_seconds": 0.008636951446533203,
+      "passed": 4,
+      "failed": 0,
+      "summary": "4/4 tests passed",
+      "tests": [
+        {
+          "test_name": "Create Run with REP",
+          "status": "PASS",
+          "duration_ms": 6.255865097045898,
+          "message": "Successfully created run with REP"
+        },
+        {
+          "test_name": "REP Files Present",
+          "status": "PASS",
+          "duration_ms": 0.9469985961914062,
+          "message": "All required files present"
+        },
+        {
+          "test_name": "Trace Events",
+          "status": "PASS",
+          "duration_ms": 0.7088184356689453,
+          "message": "All required events present"
+        },
+        {
+          "test_name": "LLM Ledger",
+          "status": "PASS",
+          "duration_ms": 0.6737709045410156,
+          "message": "50 LLM calls recorded"
+        }
+      ]
+    },
+    {
+      "suite_number": 1,
+      "suite_name": "Scaling Proof",
+      "status": "PASS",
+      "duration_seconds": 4.555664777755737,
+      "passed": 3,
+      "failed": 0,
+      "summary": "3/3 tests passed",
+      "tests": [
+        {
+          "test_name": "Run A (Small)",
+          "status": "PASS",
+          "duration_ms": 20.520925521850586,
+          "message": "339 traces, 300 LLM calls"
+        },
+        {
+          "test_name": "Run B (Large)",
+          "status": "PASS",
+          "duration_ms": 4263.4429931640625,
+          "message": "60323 traces, 60000 LLM calls"
+        },
+        {
+          "test_name": "Scaling Comparison",
+          "status": "PASS",
+          "duration_ms": 271.2738513946533,
+          "message": "Trace ratio: 177.9x, LLM ratio: 200.0x"
+        }
+      ]
+    },
+    {
+      "suite_number": 2,
+      "suite_name": "Universe Map Correctness",
+      "status": "PASS",
+      "duration_seconds": 0.010461091995239258,
+      "passed": 2,
+      "failed": 0,
+      "summary": "2/2 tests passed",
+      "tests": [
+        {
+          "test_name": "Node Expansion",
+          "status": "PASS",
+          "duration_ms": 6.36601448059082,
+          "message": "3/3 child REPs valid"
+        },
+        {
+          "test_name": "Probability Aggregation",
+          "status": "PASS",
+          "duration_ms": 4.065036773681641,
+          "message": "Mean: 0.547, CI: [0.455, 0.638]"
+        }
+      ]
+    },
+    {
+      "suite_number": 3,
+      "suite_name": "Calibration + Auto-Tune",
+      "status": "PASS",
+      "duration_seconds": 0.004240751266479492,
+      "passed": 2,
+      "failed": 0,
+      "summary": "2/2 tests passed",
+      "tests": [
+        {
+          "test_name": "Calibration Trials",
+          "status": "PASS",
+          "duration_ms": 2.051830291748047,
+          "message": "Calibration trials logged"
+        },
+        {
+          "test_name": "Auto-Tune Trials",
+          "status": "PASS",
+          "duration_ms": 2.1660327911376953,
+          "message": "Auto-tune trials logged"
+        }
+      ]
+    },
+    {
+      "suite_number": 4,
+      "suite_name": "Society Mode Backtest",
+      "status": "PASS",
+      "duration_seconds": 3.4809112548828125e-05,
+      "passed": 2,
+      "failed": 0,
+      "summary": "2/2 tests passed",
+      "tests": [
+        {
+          "test_name": "Time Cutoff Enforcement",
+          "status": "PASS",
+          "duration_ms": 0.015020370483398438,
+          "message": "Filtered 1 post-cutoff documents"
+        },
+        {
+          "test_name": "Leakage Canary",
+          "status": "PASS",
+          "duration_ms": 0.005245208740234375,
+          "message": "Post-cutoff question properly refused"
+        }
+      ]
+    },
+    {
+      "suite_number": 5,
+      "suite_name": "Target Mode Backtest",
+      "status": "PASS",
+      "duration_seconds": 0.01074528694152832,
+      "passed": 1,
+      "failed": 0,
+      "summary": "1/1 tests passed",
+      "tests": [
+        {
+          "test_name": "Per-Persona Decision Traces",
+          "status": "PASS",
+          "duration_ms": 10.723114013671875,
+          "message": "100 persona decisions logged"
+        }
+      ]
+    },
+    {
+      "suite_number": 6,
+      "suite_name": "Hybrid Mode Backtest",
+      "status": "PASS",
+      "duration_seconds": 0.0018796920776367188,
+      "passed": 1,
+      "failed": 0,
+      "summary": "1/1 tests passed",
+      "tests": [
+        {
+          "test_name": "Hybrid Submodels",
+          "status": "PASS",
+          "duration_ms": 1.8661022186279297,
+          "message": "Separate submodel policies logged"
+        }
+      ]
+    }
+  ],
+  "recommendations": []
+}

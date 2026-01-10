@@ -48,6 +48,8 @@ from app.api.v1.endpoints import (
     universe_graph,
     # Governance, Cost Controls, Safety (STEP 10)
     governance,
+    # Validation Center (Real-World Validation Playbook)
+    validation_center,
 )
 
 api_router = APIRouter()
@@ -105,3 +107,6 @@ api_router.include_router(universe_graph.router, prefix="/universe-graph", tags=
 
 # Governance, Cost Controls, Safety (STEP 10)
 api_router.include_router(governance.router, prefix="/governance", tags=["Governance & Cost Controls"])
+
+# Validation Center (Real-World Validation Playbook)
+api_router.include_router(validation_center.router, prefix="/validation-center", tags=["Validation Center"])

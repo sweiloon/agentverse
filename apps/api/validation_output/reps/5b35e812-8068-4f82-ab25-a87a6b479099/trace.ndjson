@@ -1,0 +1,5 @@
+{"event_id": "01a13e5e-cd3c-4c51-96b6-314419979667", "timestamp": "2026-01-10T10:55:07.394367Z", "event_type": "RUN_STARTED", "run_id": "5b35e812-8068-4f82-ab25-a87a6b479099", "details": {}}
+{"event_id": "212caa3f-5541-42eb-87fa-6a29800d09c5", "timestamp": "2026-01-10T10:55:07.394385Z", "event_type": "POLICY_UPDATE", "run_id": "5b35e812-8068-4f82-ab25-a87a6b479099", "details": {"submodel": "society_crowd"}}
+{"event_id": "c773c0cd-bb96-408d-948c-4691a3a27cdc", "timestamp": "2026-01-10T10:55:07.394456Z", "event_type": "POLICY_UPDATE", "run_id": "5b35e812-8068-4f82-ab25-a87a6b479099", "details": {"submodel": "target_high_intent"}}
+{"event_id": "fb9055c2-59c1-4bfb-ac2e-e32dbbb128f8", "timestamp": "2026-01-10T10:55:07.394507Z", "event_type": "AGGREGATE", "run_id": "5b35e812-8068-4f82-ab25-a87a6b479099", "details": {}}
+{"event_id": "2ef5c241-45bc-4755-b34f-cc3a4119ad48", "timestamp": "2026-01-10T10:55:07.394521Z", "event_type": "RUN_DONE", "run_id": "5b35e812-8068-4f82-ab25-a87a6b479099", "details": {}}

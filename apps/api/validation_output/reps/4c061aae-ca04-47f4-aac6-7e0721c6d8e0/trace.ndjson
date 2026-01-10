@@ -1,0 +1,9 @@
+{"event_id": "273aef96-6e6f-4f47-b548-30a9700992f0", "timestamp": "2026-01-10T10:55:07.379131Z", "event_type": "RUN_STARTED", "run_id": "4c061aae-ca04-47f4-aac6-7e0721c6d8e0", "details": {}}
+{"event_id": "37aa5cc0-3738-4ad9-86c0-7aa4bc02d331", "timestamp": "2026-01-10T10:55:07.379146Z", "event_type": "CALIBRATE", "run_id": "4c061aae-ca04-47f4-aac6-7e0721c6d8e0", "details": {"phase": "start"}}
+{"event_id": "a6d666df-c71e-4fb2-8864-619a7b7a3910", "timestamp": "2026-01-10T10:55:07.379168Z", "event_type": "CALIBRATION_TRIAL", "run_id": "4c061aae-ca04-47f4-aac6-7e0721c6d8e0", "details": {"trial": 0, "ece": 0.1}}
+{"event_id": "2217c0de-a50b-4195-bb85-82f70414b711", "timestamp": "2026-01-10T10:55:07.379228Z", "event_type": "CALIBRATION_TRIAL", "run_id": "4c061aae-ca04-47f4-aac6-7e0721c6d8e0", "details": {"trial": 1, "ece": 0.085}}
+{"event_id": "e893ca8c-f369-43d5-9196-c2c7f3ee441f", "timestamp": "2026-01-10T10:55:07.379278Z", "event_type": "CALIBRATION_TRIAL", "run_id": "4c061aae-ca04-47f4-aac6-7e0721c6d8e0", "details": {"trial": 2, "ece": 0.07}}
+{"event_id": "4857819d-b9d3-471e-943b-f67370480fb1", "timestamp": "2026-01-10T10:55:07.379327Z", "event_type": "CALIBRATION_TRIAL", "run_id": "4c061aae-ca04-47f4-aac6-7e0721c6d8e0", "details": {"trial": 3, "ece": 0.05500000000000001}}
+{"event_id": "33f97dcd-08bd-44fb-8c33-bd15246383ef", "timestamp": "2026-01-10T10:55:07.379374Z", "event_type": "CALIBRATION_TRIAL", "run_id": "4c061aae-ca04-47f4-aac6-7e0721c6d8e0", "details": {"trial": 4, "ece": 0.04000000000000001}}
+{"event_id": "ff4c360f-a283-48ce-a20e-f1b6e348c8fe", "timestamp": "2026-01-10T10:55:07.379423Z", "event_type": "CALIBRATE", "run_id": "4c061aae-ca04-47f4-aac6-7e0721c6d8e0", "details": {"phase": "complete"}}
+{"event_id": "87deff19-b60c-4906-9c7f-b796f7aa9509", "timestamp": "2026-01-10T10:55:07.379436Z", "event_type": "RUN_DONE", "run_id": "4c061aae-ca04-47f4-aac6-7e0721c6d8e0", "details": {}}

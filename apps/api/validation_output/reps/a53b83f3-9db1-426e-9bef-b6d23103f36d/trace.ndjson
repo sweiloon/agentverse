@@ -1,0 +1,5 @@
+{"event_id": "dfc84def-4028-406d-87f7-00509b436aa1", "timestamp": "2026-01-10T10:55:07.368841Z", "event_type": "RUN_STARTED", "run_id": "a53b83f3-9db1-426e-9bef-b6d23103f36d", "details": {}}
+{"event_id": "c4a59a35-a162-4200-9d02-5323ce82fdec", "timestamp": "2026-01-10T10:55:07.368868Z", "event_type": "NODE_EXPAND", "run_id": "a53b83f3-9db1-426e-9bef-b6d23103f36d", "details": {"child": "121bcc66-1b42-4db5-9792-eb05ecfd9bbc"}}
+{"event_id": "2772abfa-876b-44d6-8907-6fe24b60b340", "timestamp": "2026-01-10T10:55:07.370256Z", "event_type": "NODE_EXPAND", "run_id": "a53b83f3-9db1-426e-9bef-b6d23103f36d", "details": {"child": "b35a2b32-a175-45fa-b301-69e16c180a25"}}
+{"event_id": "37b6b4a3-1f2b-4de3-a8df-bae203a7a14a", "timestamp": "2026-01-10T10:55:07.371474Z", "event_type": "NODE_EXPAND", "run_id": "a53b83f3-9db1-426e-9bef-b6d23103f36d", "details": {"child": "b25d326c-be6e-4e7a-a4eb-1388f22cb4a9"}}
+{"event_id": "5a19392b-6743-4110-b871-0d6c723915db", "timestamp": "2026-01-10T10:55:07.372658Z", "event_type": "RUN_DONE", "run_id": "a53b83f3-9db1-426e-9bef-b6d23103f36d", "details": {}}
